@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
-import logo from './logo.svg';
+
 import './App.css';
-import css from './App.css';
 
 class App extends Component {
   render() {
@@ -74,6 +73,7 @@ class App extends Component {
         </section>
         <section className="preview">
           <iframe
+            title="React Meetup"
             src="https://www.meetup.com/Thessaloniki-ReactJS-Meetup/events/251021038/"
             frameborder="0"></iframe>
         </section>
